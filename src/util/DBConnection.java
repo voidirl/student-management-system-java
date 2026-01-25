@@ -7,7 +7,8 @@ public class DBConnection {
 
     private static final String url = "jdbc:mysql://localhost:3306/student_db";
     private static final String user = "root";
-    private static final String password = "@rVmT0312";
+    private static final String password = System.getenv("DB_PASSWORD");
+
 
     public static Connection getConnection(){
         try{
