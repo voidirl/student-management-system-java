@@ -13,7 +13,10 @@ public class Main{
             System.out.println("\n-- Student Management System ---");
             System.out.println("1. Add Student");
             System.out.println("2. View All Students");
-            System.out.println("3. Exit");
+            System.out.println("3. Update Student");
+            System.out.println("4. Delete Student");
+            System.out.println("5. Search Student by ID");
+            System.out.println("6. Exit");
             System.out.print("Enter Choice: ");
 
             int choice = sc.nextInt();
@@ -45,7 +48,40 @@ public class Main{
                     break;
 
                 case 3:
-                    System.out.println("Exiting system....");
+                    System.out.print("Enter ID to update: ");
+                    int uid = sc.nextInt();
+
+                    sc.nextLine();
+
+                    System.out.print("Enter New Name: ");
+                    String uname = sc.nextLine();
+
+                    System.out.print("Enter New Age: ");
+                    int uage = sc.nextInt();
+
+                    sc.nextLine();
+
+                    System.out.print("Enter New Course: ");
+                    String ucourse = sc.nextLine();
+
+                    Student updateStudent = new Student(uid,uname,uage,ucourse);
+                    service.updateStudent(updateStudent);
+                    break;
+
+                case 4:
+                    System.out.print("Enter ID to delete: ");
+                    int did = sc.nextInt();
+                    service.deleteStudent(did);
+                    break;
+
+                case 5:
+                    System.out.print("Enter ID to search: ");
+                    int sid = sc.nextInt();
+                    service.searchstudentById(sid);
+                    break;
+
+                case 6:
+                    System.out.println("Exiting System...");
                     sc.close();
                     return;
 
