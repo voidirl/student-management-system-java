@@ -1,0 +1,28 @@
+*{
+    background: #eaeaea;
+}
+body{
+    font-family: C059, cursive;
+    margin: 44px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 45px;
+}
+th,td{
+    border: 1px solid #cccc;
+    padding: 7px;
+}
+th{
+    background-color: #d0d0d0;
+}
+input {
+    margin: 18px;
+    padding: 6px;
+}
+button{
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+}

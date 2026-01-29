@@ -21,4 +21,8 @@ public class StudentService {
     public List<Student> getAllStudents(){
         return studentDao.getAllStudents();
     }
+
+    public void deleteStudent(int id) {
+        studentDao.deleteStudent(id);
+    }
 }

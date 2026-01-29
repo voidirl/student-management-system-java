@@ -56,4 +56,18 @@ public class StudentDao {
 
         return students;
     }
+
+    public void deleteStudent(int id) {
+        String sql = "Delete from students where id = ?";
+
+        try(Connection con = DBConnection.getConnection();
+            PreparedStatement ps = con.prepareStatement(sql)){
+
+            ps.setInt(1,id);
+            ps.executeUpdate();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 }
