@@ -9,12 +9,13 @@
     <h2>Student Management System</h2>
 
     <h3>Add Student</h3>
-    <input type="number" id = "id" placeholder="ID">
-    <input type="text" id = "name" placeholder="Name">
-    <input type="number" id = "age" placeholder="Age">
-    <input type="tel" id = "course" placeholder="Course">
-
-    <button>Add Student</button>
+    <div class="form-row">
+        <input type="number" id="id" placeholder="ID">
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="age" placeholder="Age">
+        <input type="text" id="course" placeholder="Course">
+        <button onclick="addStudent()">Add</button>
+    </div>
 
     <h3>Student List</h3>
     <table>
@@ -29,5 +30,5 @@
         </thead>
         <tbody id="studentsTable"></tbody>
     </table>
+    <script src="js/script.js"></script>
 </body>
-</html>
