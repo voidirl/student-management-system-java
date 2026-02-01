@@ -1,33 +1,46 @@
 package com.voidx.student_management_system.model;
 
-
 public class Student {
 
-    private final int id;
-    private final String name;
-    private final int age;
-    private final String course;
+    private Integer id;
+    private String name;
+    private Integer age;
+    private String course;
 
-    public Student(int id,String name,int age,String course){
+    public Student() {}
+
+    public Student(Integer id, String name, Integer age, String course) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.course = course;
     }
-    public int getId(){
+
+    public Integer getId() {
         return id;
     }
-    public String getName(){
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
         return name;
     }
-    public int getAge(){
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
         return age;
     }
-    public String getCourse(){
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public String getCourse() {
         return course;
     }
-    @Override
-    public String toString(){
-        return "Student{"+"id="+id+",name='"+name+'\''+",age="+age+",course='"+course+'\''+'}';
+    public void setCourse(String course) {
+        this.course = course;
     }
 }

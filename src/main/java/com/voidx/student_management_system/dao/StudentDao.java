@@ -70,4 +70,22 @@ public class StudentDao {
             e.printStackTrace();
         }
     }
+
+    public void updateStudent(int id,Student student){
+        String sql = "Update students set name = ?,age = ?,course = ? where id = ?";
+
+        try(Connection con = DBConnection.getConnection();
+            PreparedStatement ps = con.prepareStatement(sql)
+        ){
+            ps.setString(1,student.getName());
+            ps.setInt(2,student.getAge());
+            ps.setString(3,student.getCourse());
+            ps.setInt(4,id);
+
+            ps.executeUpdate();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 }
