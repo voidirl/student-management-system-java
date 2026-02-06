@@ -104,15 +104,15 @@ http://localhost:8080/index.html
 
 🧠 Learning Outcomes
 
-  --Built RESTful APIs using Spring Boot
+  --built RESTful APIs using Spring Boot
 
-  --Integrated JDBC with MySQL
+  --integrated JDBC with MySQL
 
-# Implemented full CRUD operations
+ Implemented full CRUD operations
 
-  --Connected frontend with backend
+  --connected frontend with backend
 
-  --Debugged real-world Spring Boot issues
+  --debugged real-world Spring Boot issues
 
 Followed clean architecture & Git best practices
 
