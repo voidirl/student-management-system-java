@@ -93,7 +93,8 @@ Run the Spring Boot application
 
 Open in browser
 
-http://localhost:8080/index.html 
+http://localhost:8080/index.html
+```
 
 🧪 Testing
 
