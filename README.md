@@ -128,8 +128,8 @@ Followed clean architecture & Git best practices
 
   Migration to Spring Data JPA
 
-# React-based frontend
+React-based frontend
 
-# 👤 Author
-
-  Rishav Rajput
+ 👤 Author
+ 
+ Rishav Rajput
