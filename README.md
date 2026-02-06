@@ -132,5 +132,5 @@ React-based frontend
 
  # 👤 Author
  
- Rishav Rajput
+ **Rishav Rajput**  
  GitHub: https://github.com/voidirl
