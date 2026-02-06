@@ -98,38 +98,38 @@ http://localhost:8080/index.html
 
 🧪 Testing
 
-REST APIs tested using Postman
+  --REST APIs tested using Postman
 
-Frontend communicates with backend using Fetch API
+  --Frontend communicates with backend using Fetch API
 
 🧠 Learning Outcomes
 
-Built RESTful APIs using Spring Boot
+  --Built RESTful APIs using Spring Boot
 
-Integrated JDBC with MySQL
+  --Integrated JDBC with MySQL
 
-Implemented full CRUD operations
+# Implemented full CRUD operations
 
-Connected frontend with backend
+  --Connected frontend with backend
 
-Debugged real-world Spring Boot issues
+  --Debugged real-world Spring Boot issues
 
 Followed clean architecture & Git best practices
 
 📌 Future Enhancements
 
-Input validation
+  Input validation
 
-Search & filter functionality
+  Search & filter functionality
 
-Pagination
+  Pagination
 
-Authentication & authorization
+  Authentication & authorization
 
-Migration to Spring Data JPA
+  Migration to Spring Data JPA
 
-React-based frontend
+# React-based frontend
 
-👤 Author
+# 👤 Author
 
-Rishav Rajput
+  Rishav Rajput
