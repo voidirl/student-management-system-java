@@ -98,21 +98,21 @@ http://localhost:8080/index.html
 
 🧪 Testing
 
-  --REST APIs tested using Postman
+  REST APIs tested using Postman
 
-  --Frontend communicates with backend using Fetch API
+  Frontend communicates with backend using Fetch API
 
 🧠 Learning Outcomes
 
-  --built RESTful APIs using Spring Boot
+  Built RESTful APIs using Spring Boot
 
-  --integrated JDBC with MySQL
+  Integrated JDBC with MySQL
 
  Implemented full CRUD operations
 
-  --connected frontend with backend
+  Connected frontend with backend
 
-  --debugged real-world Spring Boot issues
+  Debugged real-world Spring Boot issues
 
 Followed clean architecture & Git best practices
 
@@ -130,6 +130,6 @@ Followed clean architecture & Git best practices
 
 React-based frontend
 
- 👤 Author
+ # 👤 Author
  
  Rishav Rajput
