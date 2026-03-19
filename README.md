@@ -1,22 +1,22 @@
-# 📘 Student Management System (Full Stack)
+# Student Management System (Full Stack)
 
 A full-stack **Student Management System** built using **Java, Spring Boot, JDBC, MySQL**, and a **web-based UI** using **HTML, CSS, and JavaScript**.  
 The application supports **complete CRUD operations** through REST APIs and an interactive browser-based interface.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ➕ Add new students
-- 📄 View all students
-- ✏️ Update student details
-- ❌ Delete students
-- 🌐 Web UI connected to backend via REST APIs
-- 🔐 Secure database configuration using environment variables
+- Add new students
+- View all students
+- Update student details
+- Delete students
+- Web UI connected to backend via REST APIs
+- Secure database configuration using environment variables
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - Java
@@ -37,7 +37,7 @@ The application supports **complete CRUD operations** through REST APIs and an i
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 student-management-system
 - controller   (REST controllers)
@@ -52,7 +52,7 @@ student-management-system
 
 ---
 
-## 🔗 REST API Endpoints
+##REST API Endpoints
 
 | Method | Endpoint           | Description         |
 |--------|--------------------|---------------------|
@@ -63,7 +63,7 @@ student-management-system
 
 ---
 
-## ⚙️ Database Configuration
+## Database Configuration
 
 The database password is **not hardcoded**.  
 It is read securely using an **environment variable**.
@@ -75,7 +75,7 @@ DB_PASSWORD=your_mysql_password
 ```java
 System.getenv("DB_PASSWORD");
 
-▶️ How to Run the Project
+How to Run the Project
 
 Clone the repository
 
@@ -96,13 +96,13 @@ Open in browser
 http://localhost:8080/index.html
 ```
 
-🧪 Testing
+Testing
 
   REST APIs tested using Postman
 
   Frontend communicates with backend using Fetch API
 
-🧠 Learning Outcomes
+Learning Outcomes
 
   Built RESTful APIs using Spring Boot
 
@@ -115,22 +115,3 @@ http://localhost:8080/index.html
   Debugged real-world Spring Boot issues
 
 Followed clean architecture & Git best practices
-
-📌 Future Enhancements
-
-  Input validation
-
-  Search & filter functionality
-
-  Pagination
-
-  Authentication & authorization
-
-  Migration to Spring Data JPA
-
-React-based frontend
-
- # 👤 Author
- 
- **Rishav Rajput**  
- GitHub: https://github.com/voidirl
